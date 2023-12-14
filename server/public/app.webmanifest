@@ -1,0 +1,43 @@
+{
+    "name": "TODO list PWA example app for Prime Workshop!",
+    "short_name": "TODO list PWA example",
+    "start_url": "./",
+    "orientation": "portrait",
+    "theme_color": "blue",
+    "scope": "./",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/maskable.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/icon-1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "screenshots/wide.png",
+            "sizes": "2126x1024",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Wide PWA Sceenshot"
+        },
+        {
+            "src": "screenshots/narrow.png",
+            "sizes": "778x1178",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Narrow PWA Sceenshot"
+        }
+    ]
+}
